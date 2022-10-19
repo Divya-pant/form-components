@@ -1,0 +1,12 @@
+<label data-on="yes" data-off="no" class="switch">
+    <input type="checkbox">
+    <div class="slider">
+        <div class="knobs"></div>
+        <!-- <p>YES    NO</p> -->
+    </div>
+  </label>
+<br>
+  <label>Switch</label>
+  <br>
+  <button class="button-yes" (click)="disableno()" [disabled]="btnstateno">{{switchOption1}}</button>
+  <button class="button-no"  (click)="disableyes()" [disabled]="btnstateyes">{{switchOption2}}</button>
